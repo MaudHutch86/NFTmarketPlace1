@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+body {
+ background-color: whitesmoke;
+ 
+
+}
+.app{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+.gradient__bg 
+
+
+{
+
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(90deg, rgba(103, 58, 183, 0.17) 7%, rgba(0, 188, 212, 0.45) 35%, rgba(0, 0, 0, 0) 100%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(90deg, rgba(103, 58, 183, 0.17) 7%, rgba(0, 188, 212, 0.45) 35%, rgba(0, 0, 0, 0) 100%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(90deg, rgba(103, 58, 183, 0.17) 7%, rgba(0, 188, 212, 0.45) 35%, rgba(0, 0, 0, 0) 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#673AB7', GradientType=0 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(90deg, rgba(103, 58, 183, 0.17) 7%, rgba(0, 188, 212, 0.45) 35%, rgba(0, 0, 0, 0) 100%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(90deg, rgba(103, 58, 183, 0.17) 7%, rgba(0, 188, 212, 0.45) 35%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+.gradient__text{
+  text-align: center;
+
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.tracking-in-expand {
+    
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.footer__bg{
+  background-color:rgb(166, 194, 241) ;
+ 
+}
+
+.app__section__name{
+  padding-left: 20px;
+}
+
+.app_cards_container{
+  display: flex;
+  gap: 10px;
+}
+.app__description{
+  display: flex;
+  gap:8px;
+}
+
+@-webkit-keyframes tracking-in-expand {
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+}
+@keyframes tracking-in-expand {
+0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
+40% {
+  opacity: 0.6;
+}
+100% {
+  opacity: 1;
+}
+} 
+
+@media screen and (max-width: 700px) {
+
+  .section__padding{
+    padding: 4rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+
+  .section__padding{
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+

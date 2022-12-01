@@ -1,0 +1,33 @@
+
+.app_collection_label{
+  display: flex;
+  padding-bottom: 5px;
+  
+}
+
+.app_collection_label__span{
+    color:grey;
+    margin-right:70px;
+   
+    
+    
+    
+}
+
+.app_collection_label__span_C{
+    color:grey;
+    margin-right:150px;
+    margin-left: 35px;
+  
+}
+
+
+@media screen and (max-width: 600px) {
+  .app_collection_label{
+    display: flex;
+    padding-bottom: 2px;
+    width: 390px;
+    
+  }
+ 
+}

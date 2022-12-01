@@ -1,0 +1,124 @@
+
+.footer__container{
+   background-color: rgb(166, 194, 241);
+   width: auto;
+   -webkit-box-align: center;
+   margin: 7rem;
+   
+   
+
+}
+
+.footer__upper__Box{
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 0px;
+}
+.footer__h1__title{
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+hr {
+ color: white;
+}
+
+.footer__p{
+    text-align: center;
+    font-size: 16px;
+}
+.footer__a{
+    background-color:rgb(105, 49, 184);
+    color: white;
+
+}
+
+.footer__signup__Box{
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+.footer__snu__button{
+    margin-top: 8px;
+    background-color:rgb(105, 49, 184);
+    height: 40px;
+    width: 100px;
+    border-radius: 5%;
+    color: white;
+    border: none;
+    
+}
+.footer__socialM__button {
+    background-color:rgb(105, 49, 184);
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    margin: 1rem;
+    border: none;
+
+}
+
+.footer__button:hover{
+   background-color: aliceblue;
+   background: fixed;
+}
+.footer__input {
+    cursor: text;
+    -webkit-box-align: center;
+    height: 48px;
+    min-width: 50px;
+    width: 20rem;
+    margin-right: 2rem;
+    padding: 1px 2px;
+    border-radius: 12px;
+    font-size: 16;
+    border: none;
+    
+}
+.footer__community__box {
+   width: 100%;
+   -webkit-box-align: center;
+   margin-top: 8px;
+   margin-bottom: 8px;
+}
+
+.footer__socialM__btn__box {
+   flex-wrap: wrap;
+   -webkit-box-pack: center;
+   justify-content: center;
+}
+
+.footer__bottom_down{
+    background-color: rgb(166, 194, 241) ;
+}
+
+
+
+
+@media (min-width:815px) {
+    .footer__container{
+        width:82.5%;
+    }
+}
+
+@media(min-width:600px){
+    .footer__container{
+        width: 85%;
+    }
+}
+@media (max-width: 400px){
+    .footer__input{
+        visibility: hidden;
+    }
+    .legalMention{
+        text-align: center;
+    }
+}

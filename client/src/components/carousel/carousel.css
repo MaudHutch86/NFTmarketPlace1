@@ -1,0 +1,26 @@
+.topnav__cards_container{
+    display:grid;
+    grid-gap:2rem;
+    justify-content: center;
+    padding: 3rem;
+
+   
+}
+
+@media(min-width: 550px){
+    .topnav__cards_container{
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+@media(min-width: 750px){
+    .topnav__cards_container{
+        grid-template-columns: repeat(3,1fr);
+    } 
+}
+
+@media(min-width: 950px){
+    .topnav__cards_container{
+        grid-template-columns: repeat(4,1fr);
+    } 
+}

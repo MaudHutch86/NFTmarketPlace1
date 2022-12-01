@@ -1,0 +1,8 @@
+
+
+@media screen and (max-width: 600px){
+    .gradient__text {
+      font-size: 12px;
+      padding-bottom: 30px;
+    }
+}

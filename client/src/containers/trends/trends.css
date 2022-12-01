@@ -1,0 +1,33 @@
+.Trends__section{
+    height: 500px;
+    width: 100%;
+    place-items: center center;
+}
+
+.Trends__cards__box{
+    display:grid;
+    grid-gap:2rem;
+    justify-content: center;
+    padding: 3rem;
+    margin: 8px;
+
+   
+}
+
+@media(min-width: 550px){
+    .Trends__cards__box{
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+@media(min-width: 750px){
+    .Trends__cards__box{
+        grid-template-columns: repeat(3,1fr);
+    } 
+}
+
+@media(min-width: 950px){
+    .Trends__cards__box{
+        grid-template-columns: repeat(4,1fr);
+    } 
+}
